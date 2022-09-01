@@ -1,0 +1,13 @@
+package conjuring;
+//WAP to print the addition of two numbers.
+public class T6 {
+
+	public static void main(String[] args) {
+		
+           int a=6;
+           int b=7;
+           int c=a+b;
+           System.out.println("Sum is:"+c);
+	}
+
+}
