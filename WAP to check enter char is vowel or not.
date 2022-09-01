@@ -1,0 +1,23 @@
+package conjuring;
+
+import java.util.Scanner;
+
+//WAP to check enter char is vowel or not.
+public class T3 {
+
+	public static void main(String[] args) {
+		
+        Scanner s=new Scanner(System.in);
+        System.out.println("enter the char: ");
+        char n=s.next().charAt(0);
+        if(n=='a' ||n=='e'||n=='i'||n=='o'||n=='u' )
+        {
+        	System.out.println("given char is a vowel");
+        }
+        else
+        {
+        	System.out.println("given char is not a vowel");	
+        }
+	}
+
+}
