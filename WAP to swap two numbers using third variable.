@@ -1,0 +1,21 @@
+package conjuring;
+
+import java.util.Scanner;
+
+//WAP to swap two numbers using third variable.
+public class T10 {
+
+	public static void main(String[] args) {
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the m and n: ");
+		int m=s.nextInt();
+		int n=s.nextInt();
+		int temp;
+		temp=m;
+		m=n;
+		n=temp;
+		System.out.println(m);
+        System.out.println(n);
+	}
+
+}
