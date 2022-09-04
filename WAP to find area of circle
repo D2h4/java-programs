@@ -1,0 +1,17 @@
+package conjuring;
+
+import java.util.Scanner;
+
+//WAP to find area of circle.
+public class T7 {
+
+	public static void main(String[] args) {
+		
+		Scanner s=new Scanner(System.in);
+		System.out.println("enter the radius: ");
+		int r=s.nextInt();
+		float Area=3.14f*r*r;
+        System.out.println("Area of circle:"+Area);
+	}
+
+}
