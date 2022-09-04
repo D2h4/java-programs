@@ -1,0 +1,11 @@
+package conjuring;
+//write a program to find area of triangle.
+public class T8 {
+
+	public static void main(String[] args) {
+		int b=6,h=8;
+		float Area=0.5f*b*h;
+      System.out.println("Area is: "+Area);
+	}
+
+}
