@@ -1,0 +1,26 @@
+package conjuring;
+
+import java.util.Scanner;
+
+//WAP to find average of five subjects.
+public class T9 {
+
+	public static void main(String[] args) {
+		
+         Scanner s=new Scanner(System.in);
+     	 System.out.println("enter the phy marks: ");
+     	 int a=s.nextInt();
+     	 System.out.println("enter the chem marks: ");
+     	 int b=s.nextInt();
+     	 System.out.println("enter the maths marks: ");
+     	 int c=s.nextInt();
+     	 System.out.println("enter the bio marks: ");
+     	 int d=s.nextInt();
+     	 System.out.println("enter the stats marks: ");
+     	 int e=s.nextInt();
+     	 
+     	 float avg=(a+b+c+d+e)/5;
+     	 System.out.println("Average of 5 students:"+avg);
+	}
+
+}
