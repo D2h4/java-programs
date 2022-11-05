@@ -1,0 +1,21 @@
+//firstly check if a char is in lowercase or uppercase then swap them with opposite case.
+import java.util.*;
+class Test2
+{
+	public static void main(String arg[])
+	{   int i=0;
+		Scanner s=new Scanner(System.in);
+		String s1=s.next();
+		char []ch=s1.toCharArray();
+		if( ch[i]>=65 && ch[i]<=90)
+		{
+			ch[i]+=32;
+			System.out.println(ch[i]);
+		}
+		else
+		{
+			ch[i]-=32;
+			System.out.println(ch[i]);
+		}
+}
+}
