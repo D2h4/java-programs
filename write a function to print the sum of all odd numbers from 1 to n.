@@ -1,0 +1,22 @@
+import java.util.*;
+class App02
+{  
+    public static void main(String arg[])//main function
+	{
+		Scanner s=new Scanner(System.in);
+		int n=s.nextInt();
+		printSum(n);
+	}
+	public static void printSum(int x)//sum function
+  {
+		int sum=0;
+		for(int i=1;i<=2*x;i++)
+		{
+			if(i%2!=0)
+			{
+				sum=sum+i;
+			}
+		}
+		System.out.println(sum);
+	}
+}
