@@ -1,0 +1,22 @@
+import java.util.*;
+class App02
+{  
+    public static void main(String arg[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int result=printGreater(a,b);
+		System.out.println(result);
+	}
+	public static int printGreater(int x,int y){
+		if(x>y)
+		{
+			return x;
+		}
+		else
+		{
+			return y;
+		}
+	}
+}
