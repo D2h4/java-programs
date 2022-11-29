@@ -1,0 +1,17 @@
+import java.util.*;
+class App02
+{  
+    public static void main(String arg[])
+	{
+		Scanner s=new Scanner(System.in);
+		int num1=s.nextInt();
+		int num2=s.nextInt();
+		int num3=s.nextInt();
+		printAverage(num1,num2,num3);
+	}
+	public static void printAverage(int x,int y,int z){
+		int Average=(x+y+z)/3;
+	    System.out.println(Average);		
+	}
+	
+}
