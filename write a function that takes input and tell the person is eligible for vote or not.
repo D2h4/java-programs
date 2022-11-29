@@ -1,0 +1,21 @@
+import java.util.*;
+class App02
+{  
+    public static void main(String arg[])
+	{
+		Scanner sc=new Scanner(System.in);
+		int age=sc.nextInt();
+		String result=eligibleForVote(age);
+		System.out.println(result);
+	}
+	public static String eligibleForVote(int age){
+		if(age>18)
+		{
+			return "it is eligible for vote";
+		}
+		else
+		{
+			return "it is not eligible for vote";
+		}
+	}
+}
