@@ -1,0 +1,29 @@
+import java.util.*;
+class App02
+{  
+    public static void main(String arg[])
+	{ 
+	  Scanner sc=new Scanner(System.in);
+	  System.out.println("Enter the size of array: ");
+      int rows=sc.nextInt();
+      int columns=sc.nextInt();
+      int number[][]=new int[rows][columns];
+      System.out.println("enter the elements of array: ");
+      for(int i=0;i<rows;i++)
+      {
+		  for(int j=0;j<columns;j++)
+		  {
+			  number[i][j]=sc.nextInt();
+		  }
+	  }	
+    System.out.println("Resultant matrix: ");	  
+	  for(int i=0;i<columns;i++)
+	  {
+		  for(int j=0;j<rows;j++)
+		  {
+			  System.out.print(number[j][i]+" ");
+		  }
+       System.out.println();
+	}
+	}
+}
