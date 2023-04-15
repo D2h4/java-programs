@@ -1,0 +1,21 @@
+class Sum
+{   int n1,n2;
+    Sum(int n1,int n2)
+	{
+		this.n1=n1;
+		this.n2=n2;
+	}
+	public void getSum()
+	{
+		System.out.println("the sum is: "+(n1+n2));
+	}
+}
+public class Main
+{
+	public static void main(String args[])
+	{  int n1=Integer.parseInt(args[0]);
+	   int n2=Integer.parseInt(args[1]);
+       Sum s1=new Sum(n1,n2);
+	   s1.getSum();
+	}
+}
