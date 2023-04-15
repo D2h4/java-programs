@@ -1,0 +1,23 @@
+class Static
+{
+  static int x=10;
+  static
+  {
+    System.out.println("i am static block");
+  }
+  public static void staticMethod()
+  {
+     for(int i=0;i<10;i++)
+	 {
+	   System.out.println(x);
+	   x++;
+	 }
+  }
+}
+public class Main3
+{
+   public static void main(String args[])
+   {
+	  Static.staticMethod();
+   }
+}
